@@ -1,0 +1,25 @@
+body {
+    background-color: #ffebcd;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+#header {
+    text-align: center;
+    color: #d19559;
+    font-size: x-large;
+    padding: 10px;
+    background-color: bisque;
+}
+#main {
+    text-align: center;
+    margin-top: 70px;
+    flex-grow: 1; /* Elastyczny wzrost dla sekcji #main */
+    background-color: #ffebcd;
+}
+#footer {
+    background-color: bisque;
+    text-align: right;
+    font-size: x-large;
+    padding: 20px;
+}
